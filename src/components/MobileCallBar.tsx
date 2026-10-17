@@ -30,7 +30,7 @@ export function MobileCallBar() {
         className="focus-on-light btn-lift flex h-14 items-center justify-center gap-2 rounded-soft bg-[#0D7A5F] px-2 text-[0.9rem] font-semibold leading-tight text-white hover:bg-[#0A6650]"
       >
         <WhatsAppGlyph className="h-6 w-6 shrink-0" />
-        <span className="text-left">WhatsApp’tan Teklif Al</span>
+        <span className="text-left"><span className="sr-only">WhatsApp’tan </span>Teklif Al</span>
         <span className="sr-only">(yeni sekmede açılır)</span>
       </a>
     </m.div>
