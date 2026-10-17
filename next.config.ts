@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Statik çıktı: `npm run build` sonrası `out/` klasörü herhangi bir hostinge yüklenebilir.
+  output: "export",
+  images: { unoptimized: true },
   turbopack: {
     rules: {
       "*.css": {
